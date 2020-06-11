@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   name_hash.each do |key, value|
-    if key == value.smallest?
+    if key == value.last.to.h
       key
     end
   end
